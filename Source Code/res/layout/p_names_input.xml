@@ -1,0 +1,91 @@
+
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/backgroundDialog">
+
+    <RelativeLayout
+        android:layout_width="340dp"
+        android:layout_height="400dp">
+
+        <Button
+            android:id="@+id/submitBtn"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="120dp"
+            android:layout_height="58dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="114dp"
+            android:layout_marginLeft="114dp"
+            android:layout_marginTop="311dp"
+            android:layout_marginEnd="106dp"
+            android:layout_marginRight="106dp"
+            android:layout_marginBottom="31dp"
+            android:text="Start"></Button>
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="93dp"
+            android:layout_height="97dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="125dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="122dp"
+            android:layout_marginRight="122dp"
+            android:layout_marginBottom="286dp"
+            app:srcCompat="@drawable/player" />
+
+
+        <EditText
+            android:id="@+id/player1Name"
+            android:layout_width="194dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="73dp"
+            android:layout_marginLeft="73dp"
+            android:layout_marginTop="171dp"
+            android:layout_marginEnd="73dp"
+            android:layout_marginRight="73dp"
+            android:layout_marginBottom="189dp"
+            android:hint="Player 1 Name"
+            android:textSize="15dp"></EditText>
+
+        <EditText
+            android:id="@+id/player2Name"
+            android:layout_width="194dp"
+            android:layout_height="39dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="73dp"
+            android:layout_marginLeft="73dp"
+            android:layout_marginTop="228dp"
+            android:layout_marginEnd="73dp"
+            android:layout_marginRight="73dp"
+            android:layout_marginBottom="133dp"
+            android:hint="Player 2 Name"
+            android:textSize="15dp"></EditText>
+
+    </RelativeLayout>
+</LinearLayout>
